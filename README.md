@@ -54,11 +54,13 @@ https://github.com/yourusername/eld-backend
 
 ## Screenshots
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/app.png)
 
-![Route](screenshots/route-map.png)
+![Form](screenshots/form.png)
 
-![Logs](screenshots/eld-logs.png)
+![Map](screenshots/map.png)
+
+![Logs](screenshots/logs.png)
 
 ---
 
