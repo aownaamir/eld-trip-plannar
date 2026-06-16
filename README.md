@@ -4,7 +4,7 @@ A full-stack truck driver trip planning system that generates FMCSA-compliant Ho
 
 > Built with Next.js, TypeScript, Django REST Framework, and Mapbox.
 
-![Project Screenshot](./screenshots/hero.png)
+![App](screenshots/app.png)
 
 ## Live Demo
 
@@ -111,10 +111,6 @@ Mapbox APIs     HOS Engine
 ---
 
 ## Screenshots
-
-### App Home
-
-![App](screenshots/app.png)
 
 ### Trip Details
 
