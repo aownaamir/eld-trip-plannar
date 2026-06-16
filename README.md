@@ -128,24 +128,28 @@ Mapbox APIs     HOS Engine
 
 ```text
 eld-frontend/
-├── app/
-├── components/
-├── lib/
-├── types/
 ├── public/
-└── styles/
+└── app/
+   ├── components/
+   ├── lib/
+   ├── utils/
+   └── types/
+
 ```
 
 ### Backend
 
 ```text
-eld-backend/
-├── api/
-├── services/
-├── simulations/
-├── serializers/
-├── views/
-└── models/
+ena-backend/
+   ├── ena-backend/
+   └── trips/
+      ├── services/
+      ├── migrations/
+      ├── admin.py
+      ├── tests.py
+      ├── views.py
+      ├── urls.py
+      └── models.py
 ```
 
 
@@ -174,11 +178,9 @@ Combining route data with HOS calculations required synchronizing travel time, d
 ## What I Learned
 
 - Building production-style full-stack applications
-- Designing rule-based simulation systems
 - Working with mapping and routing APIs
 - Handling complex business logic
 - Integrating React applications with Django REST APIs
-- Structuring scalable frontend and backend architectures
 
 
 ## Future Improvements
@@ -190,7 +192,7 @@ Combining route data with HOS calculations required synchronizing travel time, d
 - Fleet management support
 - Real-time traffic integration
 - Weather-aware route planning
-- Fuel cost estimation
 
+##
 
  If you found this project interesting, consider giving it a star ⭐
