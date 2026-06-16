@@ -10,15 +10,11 @@ A full-stack truck driver trip planning system that generates FMCSA-compliant Ho
 
 🚀 https://eld-frontend-pymc.vercel.app/
 
----
-
 ## Overview
 
 Truck drivers must comply with strict Hours of Service (HOS) regulations that govern driving time, mandatory breaks, duty limits, and rest periods. Planning long-distance trips while remaining compliant can be complex and time-consuming.
 
 The ELD Trip Planner automates this process by calculating routes, estimating trip metrics, and generating Electronic Logging Device (ELD) logs based on HOS rules. Users can enter trip locations and receive a complete trip breakdown, including driving periods, rest stops, cycle-hour tracking, and route visualization.
-
----
 
 ## Features
 
@@ -160,11 +156,11 @@ eld-backend/
 
 ### Frontend Repository
 
-[https://github.com/your-username/eld-frontend](https://github.com/aownaamir/eld-frontend)
+[ELD-frontend](https://github.com/aownaamir/eld-frontend)
 
 ### Backend Repository
 
-[https://github.com/your-username/eld-backend](https://github.com/aownaamir/eld-backend)
+[ELD-backend](https://github.com/aownaamir/eld-backend)
 
 ---
 
@@ -173,10 +169,6 @@ eld-backend/
 ### Implementing Real HOS Regulations
 
 One of the biggest challenges was converting real-world trucking regulations into programmatic business logic while ensuring generated logs remained realistic and compliant.
-
-### Multi-Day Trip Simulation
-
-Long-haul trips required handling multiple driving cycles, mandatory rest periods, duty windows, and cycle-hour calculations across several days.
 
 ### Route & Logistics Integration
 
@@ -208,17 +200,4 @@ Combining route data with HOS calculations required synchronizing travel time, d
 
 ---
 
-## Author
-
-### Aown Aamir
-
-Electrical Engineering Graduate — NUST
-
-Full Stack Developer focused on building practical web and mobile applications using React, Next.js, React Native, Node.js, Django, and modern cloud technologies.
-
-- Portfolio: https://aown-aamir.vercel.app
-- LinkedIn: https://linkedin.com/in/aown-aamir
-
----
-
-⭐ If you found this project interesting, consider giving it a star.
+ If you found this project interesting, consider giving it a star ⭐
