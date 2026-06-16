@@ -6,15 +6,18 @@ A full-stack truck driver trip planning system that generates FMCSA-compliant Ho
 
 ![App](screenshots/app.png)
 
+
 ## Live Demo
 
 🚀 https://eld-frontend-pymc.vercel.app/
+
 
 ## Overview
 
 Truck drivers must comply with strict Hours of Service (HOS) regulations that govern driving time, mandatory breaks, duty limits, and rest periods. Planning long-distance trips while remaining compliant can be complex and time-consuming.
 
 The ELD Trip Planner automates this process by calculating routes, estimating trip metrics, and generating Electronic Logging Device (ELD) logs based on HOS rules. Users can enter trip locations and receive a complete trip breakdown, including driving periods, rest stops, cycle-hour tracking, and route visualization.
+
 
 ## Features
 
@@ -29,7 +32,6 @@ The ELD Trip Planner automates this process by calculating routes, estimating tr
 - Fuel stop recommendations
 - Real-world logistics workflow simulation
 
----
 
 ## Tech Stack
 
@@ -51,7 +53,7 @@ The ELD Trip Planner automates this process by calculating routes, estimating tr
 - Mapbox Directions API
 - Mapbox Geocoding API
 
----
+
 
 ## How It Works
 
@@ -77,7 +79,7 @@ The ELD Trip Planner automates this process by calculating routes, estimating tr
    - Stop Recommendations
    - ELD Logs
 
----
+
 
 ## Architecture
 
@@ -104,7 +106,6 @@ Mapbox APIs     HOS Engine
       Stop Planning
 ```
 
----
 
 ## Screenshots
 
@@ -120,9 +121,6 @@ Mapbox APIs     HOS Engine
 
 ![Logs](screenshots/logs.png)
 
-
-
----
 
 ## Project Structure
 
@@ -150,7 +148,6 @@ eld-backend/
 └── models/
 ```
 
----
 
 ## Source Code
 
@@ -162,7 +159,6 @@ eld-backend/
 
 [ELD-backend](https://github.com/aownaamir/eld-backend)
 
----
 
 ## Key Challenges
 
@@ -174,7 +170,6 @@ One of the biggest challenges was converting real-world trucking regulations int
 
 Combining route data with HOS calculations required synchronizing travel time, distance, fuel stops, and break scheduling into a single planning workflow.
 
----
 
 ## What I Learned
 
@@ -185,7 +180,6 @@ Combining route data with HOS calculations required synchronizing travel time, d
 - Integrating React applications with Django REST APIs
 - Structuring scalable frontend and backend architectures
 
----
 
 ## Future Improvements
 
@@ -198,6 +192,5 @@ Combining route data with HOS calculations required synchronizing travel time, d
 - Weather-aware route planning
 - Fuel cost estimation
 
----
 
  If you found this project interesting, consider giving it a star ⭐
