@@ -9,7 +9,7 @@ A full-stack truck driver trip planning system that generates FMCSA-compliant Ho
 
 ## Live Demo
 
-🚀 https://eld-frontend-pymc.vercel.app/
+https://eld-frontend-pymc.vercel.app/
 
 
 ## Overview
